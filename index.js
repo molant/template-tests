@@ -34,7 +34,7 @@ function newApi() {
     console.log('Testing new API\n');
 
     JSDOM.fromURL('http://localhost:3000', {
-        retendToBeVisual: true
+        resources: 'usable'
     });
 }
 
